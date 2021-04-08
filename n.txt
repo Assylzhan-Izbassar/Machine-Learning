@@ -1,0 +1,29 @@
+Notes for Feature Engineering
+
+‘Clouds_all’:
+    Let's sample this attribute at:
+    * [0], [1], [2,38] => 20, [40], [42, 72] => 57, [75, 89] => 82, [90], [91, 100] => 96
+
+‘Peak time’:
+
+	The rush hour in Minneapolis and St. Paul tends to be a concentrated in the traditional rush hour times of early morning and afternoon: the morning rush hour is the worst around 7:30 to 8:30 a.m., while the evening rush hour starts relatively early, at around 4 p.m., and peaks at 5 to 5:30 p.m.
+
+=> in morning it is 7:30 to 8:30 a.m; ~ 7 to 9 a.m. 
+      in evening it is 4:00 to 5:30 p.m; ~ 4 to 6 p.m.
+
+ * In whole U.S.  Rush hour may be 6–10 am (6:00–10:00) and 3–7 pm (15:00–19:00). Peak traffic periods may vary from city to city, from region to region, and seasonally.
+
+‘Is day’:
+
+Parts of the Day
+Morning     5 am to 12 pm (noon)
+    * Early morning    5 to 8 am
+    * Late morning     11 am to 12pm
+ 
+Afternoon     12 pm to 5 pm
+    * Early afternoon   1 to 3pm
+    * Late afternoon    4 to 5pm
+ 
+Evening     5 pm to 9 pm
+    * Early evening   5 to 7 pm
+ Night         9 pm to 4 am 
